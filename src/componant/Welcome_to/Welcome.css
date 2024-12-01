@@ -1,11 +1,14 @@
 .welcomemain{
     margin: auto;
     display: flex;
-    width: 90%;
+    width: 90%; 
 }
 .imagetag{
     border-radius: 30px;
 }
 .imagecontain{
     padding-top: 100px; 
+}
+.welcomemain:hover{
+    transform: scale(1.01);
 }

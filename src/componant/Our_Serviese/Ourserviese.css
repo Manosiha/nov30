@@ -1,0 +1,68 @@
+.ourservi_main{
+    margin: auto;
+    text-align: center;
+    width: 85%;
+}
+.seriviese_contation{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 60px;
+}
+.contaion{
+    width: 18%;
+    font-size: 25px;
+    color: rgba(25, 24, 24, 0.792);
+    border: none;
+    border-radius: 8px;
+    background-color:white;
+    box-shadow: 0 0 20px rgba(0, 0, 0, .1);
+}
+.our_icon{
+    font-size: 40px;
+    padding-top: 40px;
+    color: rgba(3, 3, 3, 0.616);
+}
+.contaion h4{
+    padding-top: 40px;
+}
+.contaion:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 1em 0.45em rgba(0, 0, 0, 0.1);
+    background: linear-gradient(45deg, #212121, #252525);
+    background: radial-gradient(
+      circle at bottom,
+      rgba(50, 100, 180, 0.5) 10%,
+      #212121 70%
+    );
+    outline: 0;
+    color: white;
+    .our_icon{color: white;}
+  }
+
+
+
+/* Our product css code */
+
+.product_main{
+    text-align: center;
+    margin: auto;
+    width: 85%;
+    margin-top: 90px;
+}
+.product_contain_main{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+    padding-top: 20px;
+}
+.product_contaion{
+    width: 49%;
+}
+.product_contaion:hover{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.359);
+    border-radius: 20px;
+    transform: scale(1.01);
+}
+img:hover{
+    border-radius: 20px;
+}
